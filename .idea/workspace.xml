@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a24edebb-a364-469d-886c-3c0afcbb1703" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BT_WebElement_and_WebDriver/BT_WebDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BT_WebElement_and_WebDriver/BT_WebElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BT_Locators/LocatorsCRM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BT_Locators/LocatorsCRM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BT_WebElement_and_WebDriver/BT_WebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BT_WebElement_and_WebDriver/BT_WebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BT_WebDriver.executor": "Run",
+    "Application.BT_WebElement.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.WebDriver.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -46,7 +48,10 @@
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "D:/Tester/Automation/B-i-t-p-SeleniumMaven/src/test/java",
     "last_opened_file_path": "D:/Tester/Automation/B-i-t-p-SeleniumMaven/src/main/java",
-    "onboarding.tips.debug.path": "D:/Tester/Automation/untitled/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "D:/Tester/Automation/untitled/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -54,9 +59,22 @@
       <recent name="D:\Tester\Automation\B-i-t-p-SeleniumMaven\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BT_WebDriver">
     <configuration name="BT_WebDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BT_WebElement_and_WebDriver.BT_WebDriver" />
+      <module name="SeleniumMavenTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BT_WebElement_and_WebDriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BT_WebElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BT_WebElement_and_WebDriver.BT_WebElement" />
       <module name="SeleniumMavenTestNG" />
       <extension name="coverage">
         <pattern>
@@ -84,6 +102,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BT_WebDriver" />
+        <item itemvalue="Application.BT_WebElement" />
       </list>
     </recent_temporary>
   </component>
@@ -115,8 +134,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/BT_WebElement_and_WebDriver/BT_WebDriver.java</url>
-          <line>12</line>
-          <properties class="BT_WebElement_and_WebDriver.BT_WebDriver" method="main">
+          <line>16</line>
+          <properties class="BT_WebElement_and_WebDriver.BT_WebDriver">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

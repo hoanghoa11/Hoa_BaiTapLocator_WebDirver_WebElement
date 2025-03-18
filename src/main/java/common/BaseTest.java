@@ -1,5 +1,7 @@
 package common;
 
+import BT_Locators.LocatorsCRM;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -57,6 +59,14 @@ public class BaseTest {
         }
         //Đóng Browser
         driver.quit();
+    }
+    public static void loginCRM() {
+        driver.get("https://crm.anhtester.com/admin/authentication");
+        driver.findElement(By.xpath(LocatorsCRM.inputEmail)).clear();
+        driver.findElement(By.xpath(LocatorsCRM.inputPassword)).clear();
+        driver.findElement(By.xpath(LocatorsCRM.inputEmail)).sendKeys("admin@example.com");
+        driver.findElement(By.xpath(LocatorsCRM.inputPassword)).sendKeys("123456");
+        driver.findElement(By.xpath(LocatorsCRM.buttonLogin)).click();
     }
 
 }
